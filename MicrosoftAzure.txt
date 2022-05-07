@@ -1,0 +1,1802 @@
+
+Certifications : 
+
+##Microsoft Azure					 					
+Microsoft Azure AZ-900 fundamentals		
+Administrator Associate AZ 104 
+Solution Architect Expert AZ- 300 
+Solution Architect Expert AZ- 301 
+Azure Architect technologies AZ 303
+Azure Architect Design AZ 304 
+
+#################################################################3
+Course Notes :
+Microsoft Azure AZ-900 fundamentals :
+	
+# Microsoft azure acct  		bhupeshpatil223@gmail.com 	    Pebhu@12345
+personal VUE 
+.............................................................................................................
+Azure Fundamentals part1: Describe core Azure concepts
+			a) Introduction to Azure fundamentals               
+			b) Discuss Azure fundamentals  concepts			 	
+			c) Describe Azure architectural components		    
+
+Azure Fundamentals part2: Describe core Azure services
+			a) Explore Azure compute services					
+			b) Explore Azure networking services				
+			c) Explore Azure Storage services					
+			d) Explore Azure database and analytics services	
+
+Azure Fundamentals part3: Describe core solutions and management tools on Azure
+			a) Choose the best Azure IoT service for your application
+			b) Choose the best AI service for your needs
+			c) Choose the best Azure serverless technology for your business scenario
+			d) Choose the best tools to help organizations build better solutions
+			e) Choose the best tools for managing and configuring your Azure environment
+			f) Choose the best monitoring service for visibility, insight, and outage mitigation
+		
+Azure Fundamentals part4: Describe general security and network security features
+			a) Protect against security threats on Azure
+			b) Secure network connectivity on Azure
+
+Azure Fundamentals part5: Describe identity, governance, privacy, and compliance features
+			a) Secure access to your applications by using Azure identity services
+			b) Build a cloud governance strategy on Azure
+			c) Examine privacy, compliance, and data protection standards on Azure
+
+Azure Fundamentals part 6: Describe Azure cost management and service level agreements 
+			a) Plan and manage your Azure costs
+			b) Choose the right Azure services by examining SLAs and service lifecycle
+
+	
+.............................................................................................................
+
+Azure Fundamentals part1: Describe core Azure concepts
+Part1 : a) Introduction to Azure fundamentals
+
+
+AZ-900 Domain Area														Weight
+1) Describe cloud concepts												20-25%
+2) Describe core Azure services											15-20%
+3) Describe core solutions and management tools on Azure				10-15%
+4) Describe general security and network security features 				10-15%
+5) Describe identity, governance, privacy, and compliance features		20-25%
+6) Describe Azure cost management and Service Level Agreements			10-15%
+
+Tour of Azure services :
+
+Compute					Web
+Networking				Internet of Things (IoT)
+Storage					Big data
+Mobile					AI
+Databases				DevOps
+
+1) Compute :
+
+Service name								Service function
+
+Azure Virtual Machines					= Windows or Linux virtual machines (VMs) hosted in Azure.
+Azure Virtual Machine Scale Sets		= Scaling for Windows or Linux VMs hosted in Azure.
+Azure Kubernetes Service				= Cluster management for VMs that run containerized services.
+Azure Service Fabric					= Distributed systems platform that runs in Azure or on-premises.
+Azure Batch								= Managed service for parallel and high-performance computing applications.
+Azure Container Instances				= Containerized apps run on Azure without provisioning servers or VMs.
+Azure Functions							= An event-driven, serverless compute service.
+
+2) Networking : 
+
+Service name							Service function
+
+Azure Virtual Network				=	Connects VMs to incoming virtual private network (VPN) connections.
+Azure Load Balancer					=	Balances inbound and outbound connections to applications or service endpoints.
+Azure Application Gateway			=	Optimizes app server farm delivery while increasing application security.
+Azure VPN Gateway					=	Accesses Azure Virtual Networks through high-performance VPN gateways.
+Azure DNS							=	Provides ultra-fast DNS responses and ultra-high domain availability.
+Azure Content Delivery Network		=	Delivers high-bandwidth content to customers globally.
+Azure DDoS Protection				=	Protects Azure-hosted applications from distributed denial of service (DDOS) attacks.
+Azure Traffic Manager				=	Distributes network traffic across Azure regions worldwide.
+Azure ExpressRoute					=	Connects to Azure over high-bandwidth dedicated secure connections.
+Azure Network Watcher				=	Monitors and diagnoses network issues by using scenario-based analysis.
+Azure Firewall						=	Implements high-security, high-availability firewall with unlimited scalability.
+Azure Virtual WAN					=	Creates a unified wide area network (WAN) that connects local and remote sites.
+                                    
+3) Storage : Azure provides four main types of storage services.
+
+
+Service name							Service function
+
+Azure Blob storage						=Storage service for very large objects, such as video files or bitmaps.
+Azure File storage						=File shares that can be accessed and managed like a file server.
+Azure Queue storage						=A data store for queuing and reliably delivering messages between applications.
+Azure Table storage						=Table storage is a service that stores non-relational structured data 
+										 (also known as structured NoSQL data) in the cloud, 
+										  providing a key/attribute store with a schemaless design.
+
+### These services all share several common characteristics:
+
+        Durable and highly available with redundancy and replication.
+        Secure through automatic encryption and role-based access control.
+        Scalable with virtually unlimited storage.
+        Managed, handling maintenance and any critical problems for you.
+        Accessible from anywhere in the world over HTTP or HTTPS
+										
+
+4) Mobile : 
+
+## Other features of this service include:
+
+        Offline data synchronization.
+        Connectivity to on-premises data.
+        Broadcasting push notifications.
+        Autoscaling to match business needs.
+
+5) Databases : 
+
+Service name					Service function
+
+Azure Cosmos DB				 = Globally distributed database that supports NoSQL options.
+Azure SQL Database			 = Fully managed relational database with auto-scale, integral intelligence, and robust security.
+Azure Database for MySQL	 = Fully managed and scalable MySQL relational database with high availability and security.
+Azure Database for PostgreSQL= Fully managed and scalable PostgreSQL relational database with high availability and security.
+SQL Server on Azure Virtual  = Service that hosts enterprise SQL Server apps in the cloud.
+Machines                         
+Azure Synapse Analytics		 = Fully managed data warehouse with integral security at every level of scale at no extra cost.
+Azure Database Migration 	 = Service that migrates databases to the cloud with no application code changes.
+Service                      
+Azure Cache for Redis	 = Fully managed service caches frequently used and static data to reduce data and application latency.
+Azure Database for MariaDB	 = Fully managed and scalable MariaDB relational database with high availability and security.										
+
+6) Web : 
+
+Service name								Description
+
+Azure App Service							= Quickly create powerful cloud web-based apps.
+Azure Notification Hubs						= Send push notifications to any platform from any back end.
+Azure API Management						= Publish APIs to developers, partners, and employees securely and at scale.
+Azure Cognitive Search						= Deploy this fully managed search as a service.
+Web Apps feature of Azure App Service		= Create and deploy mission-critical web apps at scale.
+Azure SignalR Service						= Add real-time web functionalities easily
+
+7) IoT : 
+
+Service name		Description
+
+IoT Central			= Fully managed global IoT software as a service (SaaS) solution that makes it easy to connect,
+					  monitor, and manage IoT assets at scale.					
+Azure IoT Hub		= Messaging hub that provides secure communications between and monitoring of millions of IoT devices.
+IoT Edge			= Fully managed service that allows data analysis models to be pushed directly onto IoT devices, 
+					  which allows them to react quickly to state changes without needing to consult cloud-based AI models.	
+
+
+
+8) Big data :
+
+Service name				Description
+
+Azure Synapse Analytics		= Run analytics at a massive scale by using a cloud-based enterprise data warehouse that takes 
+                            advantage of massively parallel processing to run complex queries quickly across petabytes of data.
+Azure HDInsight		= Process massive amounts of data with managed clusters of Hadoop clusters in the cloud.
+Azure Databricks	= Integrate this collaborative Apache Spark-based analytics service with other big data services in Azure.
+ 
+
+9) AI :
+
+Service name						Description
+
+Azure Machine Learning Service		= Cloud-based environment you can use to develop, train, test, deploy, manage, and
+									  track machine learning models. 
+									  It can auto-generate a model and auto-tune it for you. It will let you start training
+									  on your local machine, and then scale out to the cloud.
+
+Azure ML Studio				=	Collaborative visual workspace where you can build, test, and deploy machine learning 
+								solutions by using prebuilt machine learning algorithms and data-handling modules.
+
+A closely related set of products are the cognitive services. 
+You can use these prebuilt APIs in your applications to solve complex problems. 
+
+
+
+Service name					Description
+
+Vision		= Use image-processing algorithms to smartly identify, caption, index, and moderate your pictures and videos.
+Speech		= Convert spoken audio into text, use voice for verification, or add speaker recognition to your app.
+Knowledge mapping	= Map complex information and data to solve tasks such as intelligent recommendations and semantic search.
+
+Bing Search  = Add Bing Search APIs to your apps and harness the ability to comb billions of webpages, images, videos, 
+               and news with a single API call.
+
+Natural Language processing	 =	Allow your apps to process natural language with prebuilt scripts, evaluate sentiment, and
+                                learn how to recognize what users want.
+								
+								
+10) DevOps :
+
+Service name				Description
+
+Azure DevOps			=	Use development collaboration tools such as high-performance pipelines,
+							free private Git repositories, configurable Kanban boards, and 
+							extensive automated and cloud-based load testing. 
+							Formerly known as Visual Studio Team Services.
+
+Azure DevTest Labs		=	Quickly create on-demand Windows and Linux environments to test or demo applications
+							directly from deployment pipelines.								
+								
+		#Get started with Azure accounts
+
+		completing Learn modules -- which runs in an environment called the Learn sandbox
+
+
+#####################################################################################################################
+
+Part1: b) Discuss Azure fundamentals  concepts
+Discuss different types of cloud models
+	Q) What are public, private, and hybrid clouds?
+	==> Deployment model			Description
+	i) Public cloud			Services are offered over the public internet and available to anyone who wants to purchase them.
+							Cloud resources, such as servers and storage, are owned and operated by a 
+							third-party cloud service provider, and delivered over the internet.
+
+	ii) Private cloud		A private cloud consists of computing resources used exclusively by users from
+							one business or organization. 
+							A private cloud can be physically located at your organization's on-site (on-premises) 
+							datacenter, or it can be hosted by a third-party service provider.
+
+	iii) Hybrid cloud		A hybrid cloud is a computing environment that combines a public cloud and a private cloud
+							by allowing data and applications to be shared between them.
+
+ 
+	Q)  Cloud model comparison :
+	Public cloud
+		No capital expenditures to scale up.
+		Applications can be quickly provisioned and deprovisioned.
+		Organizations pay only for what they use.
+	Private cloud
+		Hardware must be purchased for start-up and maintenance.
+		Organizations have complete control over resources and security.
+		Organizations are responsible for hardware maintenance and updates.
+	Hybrid cloud
+        Provides the most flexibility.
+        Organizations determine where to run their applications.
+        Organizations control security, compliance, or legal requirements.
+
+	# Describe cloud benefits and considerations :
+	Q) What are some cloud computing advantages?
+	==> There are several advantages that a cloud environment has over a physical environment that 
+	    Tailwind Traders can use following its migration to Azure.
+
+		•High availability: Depending on the service-level agreement (SLA) that you choose, 
+							your cloud-based apps can provide a continuous user experience 
+							with no apparent downtime, even when things go wrong.
+
+		•Scalability: 	Apps in the cloud can scale vertically and horizontally:
+				i.  Scale vertically to increase compute capacity by adding RAM or CPUs to a virtual machine.
+				ii. Scaling horizontally increases compute capacity by adding instances of resources, 
+					such as adding VMs to the configuration.
+		•Elasticity: 	You can configure cloud-based apps to take advantage of autoscaling, 
+						so your apps always have the resources they need.
+
+		•Agility: Deploy and configure cloud-based resources quickly as your app requirements change.
+
+		•Geo-distribution: You can deploy apps and data to regional datacenters around the globe, 
+							thereby ensuring that your customers always have the best performance in their region.
+
+		•Disaster recovery: By taking advantage of cloud-based backup services, data replication, and 
+							geo-distribution, you can deploy your apps with the confidence that comes from
+							knowing that your data is safe in the event of disaster
+
+	# Capital expenses vs. operating expenses :
+	There are two different types of expenses that you should consider:
+		i) Capital Expenditure (CapEx) is the up-front spending of money on physical infrastructure, and
+		   then deducting that up-front expense over time. The up-front cost from CapEx has a value that reduces over time.
+			
+		ii) Operational Expenditure (OpEx) is spending money on services or products now, and being billed for them now.
+     		You can deduct this expense in the same year you spend it. 
+			There is no up-front cost, as you pay for a service or product as you use it.
+	
+	# Cloud computing is a consumption-based model
+			Cloud service providers operate on a consumption-based model, which means that end users 
+			only pay for the resources that they use. Whatever they use is what they pay for.
+
+			#A consumption-based model has many benefits, including:
+                •	No upfront costs.
+                •	No need to purchase and manage costly infrastructure that users might not use to its fullest.
+                •	The ability to pay for additional resources when they are needed.
+                •	The ability to stop paying for resources that are no longer needed.
+	
+
+	
+	#Describe different cloud services :
+		•If you've been around cloud computing for a while, you've probably seen the PaaS, IaaS, and SaaS acronyms 
+		for the different cloud service models. 
+		•These models define the different levels of shared responsibility that a cloud provider and 
+		cloud tenant are responsible for.
+	
+		Model	Definition						
+	•	IaaS	Infrastructure-as-a-Service		
+	
+			:
+			i)  This cloud service model is the closest to managing physical servers;
+				a cloud provider will keep the hardware up-to-date, 
+			ii) but operating system maintenance and network configuration is up to you as the cloud tenant. 
+		   iii) For example, Azure virtual machines are fully operational virtual compute devices running 
+				in Microsoft datacenters.
+			iV) An advantage of this cloud service model is rapid deployment of new compute devices. 
+		    v)  Setting up a new virtual machine is considerably faster than procuring, installing, and 
+				configuring a physical server
+
+	•	PaaS	Platform-as-a-Service
+		Description :
+				i)  This cloud service model is a managed hosting environment.
+				ii) The cloud provider manages the virtual machines and networking resources, 
+				    and the cloud tenant deploys their applications into the managed hosting environment. 
+			   iii) For example, Azure App Services provides a managed hosting environment where developers can
+					upload their web applications, without having to worry about the physical hardware and
+					software requirements.
+
+	•	SaaS	Software-as-a-Service
+		Description :
+				i)  In this cloud service model, the cloud provider manages all aspects of the application environment,
+ 				    such as virtual machines, networking resources, data storage, and applications. 
+				ii) The cloud tenant only needs to provide their data to the application managed by the cloud provider.
+			   iii) For example, Microsoft Office 365 provides a fully working version of Microsoft Office that
+					runs in the cloud. All you need to do is create your content, and Office 365 takes care of everything else.
+
+	# Let's compare the three models in more detail in the following sections.
+
+		1) IaaS :
+		IaaS is the most flexible category of cloud services.
+		It aims to give you complete control over the hardware that runs your application. 
+		Instead of buying hardware, with IaaS, you rent it.
+		
+		*	Advantages
+			•	No CapEx: Users have no up-front costs.
+
+			•	Agility: Applications can be made accessible quickly, and deprovisioned whenever needed.
+
+			•	Management: The shared responsibility model applies; the user manages and maintains 
+							the services they have provisioned, and the cloud provider manages and maintains 
+							the cloud infrastructure.
+
+			•	Consumption-based model:  Organizations pay only for what they use and operate under an 
+										  Operational Expenditure (OpEx) model.
+
+			•	Skills:	 	No deep technical skills are required to deploy, use, and gain the benefits 
+							of a public cloud. 
+							Organizations can use the skills and expertise of the cloud provider to ensure 
+							workloads are secure, safe, and highly available.
+
+			•	Cloud benefits:		Organizations can use the skills and expertise of the cloud provider to
+									ensure workloads are made secure and highly available.
+
+			•	Flexibility. 	IaaS is the most flexible cloud service because you have control to 
+								configure and manage the hardware running your application.
+
+		
+		2)	PaaS	:
+			PaaS provides the same benefits and considerations as IaaS, 
+			but there are some additional benefits to be aware of.
+
+		*	Advantages
+			•	No CapEx: Users have no up-front costs.
+				
+			•	Agility: PaaS is more agile than IaaS, and users don't need to configure servers for running applications.
+			
+			•	Consumption-based model: Users pay only for what they use, and operate under an OpEx model.
+				
+			•	Skills: No deep technical skills are required to deploy, use, and gain the benefits of PaaS.
+				
+			•	Cloud benefits: Users can take advantage of the skills and expertise of the cloud provider to 
+								ensure that their workloads are made secure and highly available. 
+								In addition, users can gain access to more cutting-edge development tools. 
+								They can then apply these tools across an application's lifecycle.
+			
+			•	Productivity: 	Users can focus on application development only, because the cloud provider 
+								handles all platform management. Working with distributed teams as services is
+								easier because the platform is accessed over the internet. 
+								You can make the platform available globally more easily.
+
+		*	Disadvantage :
+					Platform limitations. 
+					There can be some limitations to a cloud platform that might affect how an application runs.
+					When you're evaluating which PaaS platform is best suited for a workload, 
+					be sure to consider any limitations in this area.
+
+		3) SaaS
+			SaaS is software that's centrally hosted and managed for you and your users or customers. 
+			Usually one version of the application is used for all customers, and 
+			it's licensed through a monthly or annual subscription.
+
+			SaaS provides the same benefits as IaaS, but again there are some additional benefits to be aware of too.
+
+		*	Advantages
+			•	No CapEx : Users have no up-front costs.
+			
+			•	Agility : Users can provide staff with access to the latest software quickly and easily.
+			
+			•	Pay-as-you-go pricing model:  Users pay for the software they use on a subscription model,
+							typically monthly or yearly, regardless of how much they use the software.
+			
+			•	Skills:  No deep technical skills are required to deploy, use, and gain the benefits of SaaS.
+			
+			•	Flexibility: Users can access the same application data from anywhere.
+				
+			*	Disadvantage
+			•	Software limitations: There can be some limitations to a software application that might 
+										affect how users work. 
+										Because you're using as-is software, you don't have direct control of features. 
+										When you're evaluating which SaaS platform is best suited for a workload,
+										be sure to consider any business needs and software limitations.
+
+	## Cloud service model comparison : 
+		IaaS									PaaS									SaaS
+		The most flexible cloud service.		Focus on application development.		Pay-as-you-go pricing model.
+
+		You configure and manage 				Platform management is handled by		Users pay for the software they use on
+		the hardware for your application.		the cloud provider.						a subscription model.
+		
+		•The following chart illustrates the various levels of responsibility between a cloud provider and a cloud tenant.
+
+	Q) What is serverless computing?
+	==> 	i) Like PaaS, serverless computing enables developers to build applications faster by eliminating
+			   the need for them to manage infrastructure. 
+		   ii) With serverless applications, the cloud service provider automatically provisions, scales, and 
+		       manages the infrastructure required to run the code. 
+		  iii) Serverless architectures are highly scalable and event-driven, 
+			   only using resources when a specific function or trigger occurs.
+
+			# It's important to note that servers are still running the code. 
+			The "serverless" name comes from the fact that the tasks associated with infrastructure provisioning and
+			management are invisible to the developer. This approach enables developers to increase 
+			their focus on the business logic, and deliver more value to the core of the business. 
+			Serverless computing helps teams increase their productivity and bring products to market faster,
+			and it allows organizations to better optimize resources and stay focused on innovation.
+
+#####################################################################################################################
+Part1 : c) Describe Azure architectural components	
+
+	#Topic: Overview of Azure subscriptions, management groups, and resources
+		As part of your research for Tailwind Traders, you need to learn the organizing structure for 
+		resources in Azure, which has four levels: management groups, subscriptions, resource groups, and resources.
+			
+		Having seen the top-down hierarchy of organization, let's describe each of those levels from the bottom up:
+
+			1) Resources: Resources are instances of services that you create, like virtual machines, storage, or SQL databases.
+			2) Resource groups: Resources are combined into resource groups, which act as a logical container into
+								which Azure resources like web apps, databases, and storage accounts are deployed and managed.
+			3) Subscriptions: A subscription groups together user accounts and the resources that have been
+								created by those user accounts. 
+								For each subscription, there are limits or quotas on the amount of resources that you 
+								can create and use. Organizations can use subscriptions to manage costs and the resources.
+								that are created by users, teams, or projects.
+			4) Management groups: These groups help you manage access, policy, and compliance for multiple subscriptions.
+								  All subscriptions in a management group automatically inherit the conditions applied 
+								  to the management group.
+		
+	##Topic:  Azure regions, availability zones, and region pairs
+		
+			*	Azure regions
+				A region is a geographical area on the planet that contains at least one but potentially multiple
+				datacenters that are nearby and networked together with a low-latency network. 
+				Azure intelligently assigns and controls the resources within each region to ensure workloads are
+				appropriately balanced.
+
+				When you deploy a resource in Azure, you'll often need to choose the region where you want your 
+				resource deployed.
+		
+			#NOTE :
+			Some services or VM features are only available in certain regions, such as specific VM sizes or storage types.
+			There are also some global Azure services that don't require you to select a particular region, 
+			such as Azure Active Directory, Azure Traffic Manager, and Azure DNS.
+		
+			Q) Why are regions important?
+			==> Azure has more global regions than any other cloud provider. 
+				These regions give you the flexibility to bring applications closer to your users no matter where they are.
+				Global regions provide better scalability and redundancy. 
+				They also preserve data residency for your services.
+
+			#Special Azure regions
+			Azure has specialized regions that you might want to use when you build out your applications
+			for compliance or legal purposes. A few examples include:
+				•	US DoD Central, US Gov Virginia, US Gov Iowa and more: 
+						These regions are physical and logical network-isolated instances of Azure for U.S. government
+						agencies and partners. 
+						These datacenters are operated by screened U.S. personnel and include additional compliance 
+						certifications.
+				•	China East, China North, and more: 
+						These regions are available through a unique partnership between Microsoft and 21Vianet,
+						whereby Microsoft doesn't directly maintain the datacenters.
+	
+			#Regions are what you use to identify the location for your resources. 
+			There are two other terms you should also be aware of: geographies and availability zones.
+	
+		#Azure availability zones :
+			You want to ensure your services and data are redundant so you can protect your information
+			in case of failure. 
+			When you host your infrastructure, setting up your own redundancy requires that you create duplicate
+			hardware environments. 
+			Azure can help make your app highly available through availability zones.
+		
+		#What is an availability zone?
+		==> Availability zones are physically separate datacenters within an Azure region. 
+			Each availability zone is made up of one or more datacenters equipped with independent power, 
+			cooling, and networking. An availability zone is set up to be an isolation boundary. 
+			If one zone goes down, the other continues working.
+			Availability zones are connected through high-speed, private fiber-optic networks.
+		
+		#Use availability zones in your apps
+			You can use availability zones to run mission-critical applications and build high-availability into 
+			your application architecture by co-locating your compute, storage, networking, and data resources within a zone 
+			and replicating in other zones. 
+			Keep in mind that there could be a cost to duplicating your services and transferring data between zones.
+		
+			## Availability zones are primarily for VMs, managed disks, load balancers, and SQL databases.
+			   Azure services that support availability zones fall into three categories:
+				•Zonal services: You pin the resource to a specific zone (for example, VMs, managed disks, IP addresses).
+				•Zone-redundant services: The platform replicates automatically across zones 
+										  (for example, zone-redundant storage, SQL Database).
+				•Non-regional services: Services are always available from Azure geographies and are resilient to 
+										zone-wide outages as well as region-wide outages.
+		
+		Check the documentation to determine which elements of your architecture you can associate with an availability zone.
+
+		##Azure region pairs :
+			Availability zones are created by using one or more datacenters. 
+			There's a minimum of three zones within a single region. 
+			It's possible that a large disaster could cause an outage big enough to affect even two datacenters. 
+			That's why Azure also creates region pairs.
+
+		Q) What is a region pair?
+		==>	Each Azure region is always paired with another region within the same geography 
+			(such as US, Europe, or Asia) at least 300 miles away. 
+			This approach allows for the replication of resources (such as VM storage) across a geography 
+			that helps reduce the likelihood of interruptions because of events such as natural disasters, 
+			civil unrest, power outages, or physical network outages that affect both regions at once. 
+			If a region in a pair was affected by a natural disaster, for instance, services would automatically 
+			failover to the other region in its region pair.
+		
+		Examples of region pairs in Azure are West US paired with East US and SouthEast Asia paired with East Asia.
+
+		Because the pair of regions is directly connected and far enough apart to be isolated from regional disasters,
+		you can use them to provide reliable services and data redundancy. 
+		Some services offer automatic geo-redundant storage by using region pairs.
+		
+		## Additional advantages of region pairs:
+
+			•	If an extensive Azure outage occurs, one region out of every pair is prioritized to make sure at
+				least one is restored as quickly as possible for applications hosted in that region pair.
+			•	Planned Azure updates are rolled out to paired regions one region at a time to minimize 
+				downtime and risk of application outage.
+			•	Data continues to reside within the same geography as its pair (except for Brazil South) 
+				for tax- and law-enforcement jurisdiction purposes.
+		Having a broadly distributed set of datacenters allows Azure to provide a high guarantee of availability.
+		
+	#Topic :Azure resources and Azure Resource Manager
+		
+		
+		Before you create a subscription for Tailwind Traders, you will need to be ready to start 
+		creating resources and storing them in resource groups. With that in mind, it's important to define those terms:
+
+			•	Resource: A manageable item that's available through Azure. Virtual machines (VMs), 
+				storage accounts, web apps, databases, and virtual networks are examples of resources.
+			•	Resource group: A container that holds related resources for an Azure solution. 
+				The resource group includes resources that you want to manage as a group. 
+				You decide which resources belong in a resource group based on what makes 
+				the most sense for your organization.
+		
+
+		##Azure resource groups:
+			Resource groups are a fundamental element of the Azure platform. 
+			A resource group is a logical container for resources deployed on Azure. 
+			These resources are anything you create in an Azure subscription like VMs, 
+			Azure Application Gateway instances, and Azure Cosmos DB instances. 
+			All resources must be in a resource group, and a resource can only be a member of a single resource group. 
+			Many resources can be moved between resource groups with some services having specific limitations or 
+			requirements to move. 
+			Resource groups can't be nested. 
+			Before any resource can be provisioned, you need a resource group for it to be placed in.
+
+		##Logical grouping:
+			Resource groups exist to help manage and organize your Azure resources. 
+			By placing resources of similar usage, type, or location in a resource group, you can provide order and
+			organization to resources you create in Azure. 
+			Logical grouping is the aspect that you're most interested in here, because there's a lot of disorder 
+			among our resources.
+
+		##Life cycle:
+			If you delete a resource group, all resources contained within it are also deleted. 
+			Organizing resources by life cycle can be useful in nonproduction environments, 
+			where you might try an experiment and then dispose of it. 
+			Resource groups make it easy to remove a set of resources all at once.
+		
+		## Authorization :
+			Resource groups are also a scope for applying role-based access control (RBAC) permissions.
+			By applying RBAC permissions to a resource group, you can ease administration and 
+			limit access to allow only what's needed.
+			
+		##Azure Resource Manager :
+			Azure Resource Manager is the deployment and management service for Azure. 
+			It provides a management layer that enables you to create, update, and delete resources in your Azure account.
+			You use management features like access control, locks, and tags to secure and organize 
+			your resources after deployment.
+
+			When a user sends a request from any of the Azure tools, APIs, or SDKs, Resource Manager receives the request.
+			It authenticates and authorizes the request. Resource Manager sends the request to the Azure service,
+			which takes the requested action. Because all requests are handled through the same API, 
+			you see consistent results and capabilities in all the different tools.
+
+		All ll capabilities that are available in the Azure portal are also available through PowerShell, 
+		the Azure CLI, REST APIs, and client SDKs. Functionality initially released through APIs will be 
+		represented in the portal within 180 days of initial release.
+		
+		##The benefits of using Resource Manager
+			With Resource Manager, you can:
+
+			• 	Manage your infrastructure through declarative templates rather than scripts. 
+				A Resource Manager template is a JSON file that defines what you want to deploy to Azure.
+			•	Deploy, manage, and monitor all the resources for your solution as a group, rather than 
+				handling these resources individually.
+			•	Redeploy your solution throughout the development life cycle and have confidence your resources
+				are deployed in a consistent state.
+			•	Define the dependencies between resources so they're deployed in the correct order.
+			•	Apply access control to all services because RBAC is natively integrated into the management platform.
+			•	Apply tags to resources to logically organize all the resources in your subscription.
+			•	Clarify your organization's billing by viewing costs for a group of resources that share the same tag.
+		
+		
+	#Topic : Azure subscriptions and management groups
+			Note : 
+				An Azure resource is a manageable item that's available through Azure. 
+				Virtual machines (VMs), storage accounts, web apps, databases, and virtual networks are 
+				all examples of resources.
+
+			#Azure subscriptions :
+				Using Azure requires an Azure subscription. A subscription provides you with authenticated and
+				authorized access to Azure products and services. 
+				It also allows you to provision resources. 
+				An Azure subscription is a logical unit of Azure services that links to an Azure account,
+				which is an identity in Azure Active Directory (Azure AD) or in a directory that Azure AD trusts.
+		
+		#An account can have one subscription or multiple subscriptions that have different billing models and 
+		to which you apply different access-management policies. 
+		You can use Azure subscriptions to define boundaries around Azure products, services, and resources. 
+		There are two types of subscription boundaries that you can use:
+		
+			•	Billing boundary: This subscription type determines how an Azure account is billed for using Azure.
+							You can create multiple subscriptions for different types of billing requirements. 
+							Azure generates separate billing reports and invoices for each subscription so that you 
+							can organize and manage costs.
+		
+			•	Access control boundary: Azure applies access-management policies at the subscription level, 
+							and you can create separate subscriptions to reflect different organizational structures.
+							An example is that within a business, you have different departments to which you apply 
+							distinct Azure subscription policies. 
+							This billing model allows you to manage and control access to the resources that 
+							users provision with specific subscriptions.
+		
+		##Create additional Azure subscriptions
+			* You might want to create additional subscriptions for resource or billing management purposes. 
+			For example, you might choose to create additional subscriptions to separate:
+
+				• Environments: When managing your resources, you can choose to create subscriptions to set up 
+								separate environments for development and testing, security, or to isolate data for
+								compliance reasons.
+								This design is particularly useful because resource access control occurs at the 
+								subscription level.
+								
+				• Organizational structures: You can create subscriptions to reflect different organizational structures.
+								For example, you could limit a team to lower-cost resources, while allowing the 
+								IT department a full range. This design allows you to manage and control access 
+								to the resources that users provision within each subscription.
+								
+				• Billing: You might want to also create additional subscriptions for billing purposes. 
+						   Because costs are first aggregated at the subscription level, you might want to 
+						   create subscriptions to manage and track costs based on your needs.
+						   For instance, you might want to create one subscription for your production workloads and
+						   another subscription for your development and testing workloads.
+		
+			* You might also need additional subscriptions because of:
+				•	Subscription limits: Subscriptions are bound to some hard limitations. 
+							For example, the maximum number of Azure ExpressRoute circuits per subscription is 10. 
+							Those limits should be considered as you create subscriptions on your account. 
+							If there's a need to go over those limits in particular scenarios,
+							you might need additional subscriptions.
+		
+		##Customize billing to meet your needs
+			If you have multiple subscriptions, you can organize them into invoice sections. 
+			Each invoice section is a line item on the invoice that shows the charges incurred that month. 
+			For example, you might need a single invoice for your organization but want to organize charges 
+			by department, team, or project.
+
+			Depending on your needs, you can set up multiple invoices within the same billing account. 
+			To do this, create additional billing profiles. 
+			Each billing profile has its own monthly invoice and payment method.
+
+			The following diagram shows an overview of how billing is structured. 
+			If you've previously signed up for Azure or if your organization has an Enterprise Agreement, 
+			your billing might be set up differently.
+		
+		##Azure management groups
+
+			If your organization has many subscriptions, you might need a way to efficiently manage access,
+			policies, and compliance for those subscriptions. Azure management groups provide a level of scope 
+			above subscriptions. You organize subscriptions into containers called management groups and apply 
+			your governance conditions to the management groups. All subscriptions within a management group 
+			automatically inherit the conditions applied to the management group. Management groups give you 
+			enterprise-grade management at a large scale no matter what type of subscriptions you might have. 
+			All subscriptions within a single management group must trust the same Azure AD tenant.
+
+			For example, you can apply policies to a management group that limits the regions available for VM creation.
+			This policy would be applied to all management groups, subscriptions, and resources under that management
+			group by only allowing VMs to be created in that region.	
+
+		##Hierarchy of management groups and subscriptions
+
+		
+		You can build a flexible structure of management groups and subscriptions to organize your resources into a
+		hierarchy for unified policy and access management. 
+		The following diagram shows an example of creating a hierarchy for governance by using management groups.
+			
+			
+		You can create a hierarchy that applies a policy. For example, you could limit VM locations to the US West
+		Region in a group called Production. This policy will inherit onto all the Enterprise Agreement subscriptions
+		that are descendants of that management group and will apply to all VMs under those subscriptions. 
+		This security policy can't be altered by the resource or subscription owner, which allows for improved governance.
+
+		## Another scenario where you would use management groups is to provide user access to multiple subscriptions.
+		By moving multiple subscriptions under that management group, you can create one role-based access control (RBAC) 
+		assignment on the management group, which will inherit that access to all the subscriptions. 
+		
+		One assignment on the management group can enable users to have access to everything they need instead of
+		scripting RBAC over different subscriptions.
+		
+		## Important facts about management groups
+		
+			•	10,000 management groups can be supported in a single directory.
+			•	A management group tree can support up to six levels of depth. This limit doesn't include the
+				root level or the subscription level.
+			•	Each management group and subscription can support only one parent.
+			•	Each management group can have many children.
+			•	All subscriptions and management groups are within a single hierarchy in each directory.
+	
+		#Exercise - Create a website hosted in Azure
+		
+		##Azure terminology and concepts
+
+			Q) What is App Service?
+			==>	App Service is an HTTP-based service that enables you to build and host many types of web-based 
+			    solutions without managing infrastructure. 
+				For example, you can host web apps, mobile back ends, and RESTful APIs in several supported
+				programming languages. 
+				
+				Applications developed in .NET, .NET Core, Java, Ruby, Node.js, PHP, or Python can run in and 
+				scale with ease on both Windows-based and Linux-based environments.
+
+				For this exercise, we want to create a website in less than the time it takes to eat lunch.
+				So, we're not going to write any code. Instead, you'll deploy a predefined application from Azure Marketplace.
+
+			Q) What is Azure Marketplace?
+			==> Azure Marketplace is an online store that hosts applications that are certified and optimized to run in Azure. 
+			    Many types of applications are available, ranging from AI and machine learning to web applications.
+				As you'll see in a couple of minutes, deployments from the store are done via the Azure portal
+				by using a wizard-style user interface. 
+				This user interface makes evaluating different solutions easy.
+
+				We're going to use one of the WordPress application options from Azure Marketplace for our website.
+
+	
+			#Create resources in Azure
+			
+			•	Typically, the first thing we'd do is to create a resource group to hold all the things that
+			    we need to create. 
+			• 	The resource group enables us to administer all the services, disks, network interfaces, and 
+			    other elements that potentially make up our solution as a unit. 
+				We can use the Azure portal to create and manage our solution's resource groups. 
+				Keep in mind that you can also manage resources via a command line by using the Azure CLI.
+				The Azure CLI is a useful option if you need to automate the process in the future.
+
+			•	In the free Azure sandbox environment, you'll use the pre-created resource group
+				[sandbox resource group name], and you don't need to do this step.
+
+			#Choose a location
+
+			The free sandbox allows you to create resources in a subset of the Azure global regions. 
+			Select a region from this list when you create resources:
+	
+			•	westus2										•	southeastasia
+			•	southcentralus                              •	japaneast
+			•	centralus                                   •	brazilsouth
+			•	eastus                                      •	australiasoutheast
+			•	westeurope                                  •	centralindia
+
+			##Create a WordPress website
+
+			1) If you haven't done so already, verify that you've activated the sandbox. 
+			   Activating the sandbox allocates the subscription and resource group you'll use in this exercise.
+			   This step is required for any Microsoft Learn exercises that use a sandbox.
+
+			2) Sign in to the Azure portal by using the same account you used to activate the sandbox.
+			
+			3) On the top left of the Azure portal pane, select Create a resource.
+			   This option takes you to Azure Marketplace.
+
+			4) Azure Marketplace has many services, solutions, and resources available for you to use. 
+			   We know that we want to install WordPress, so we can do a quick search for it. 
+			   In the Search the Marketplace box with the listed application options, enter WordPress.
+			   Select the default WordPress option from the list of options available.
+	
+			5) In the WordPress pane that appears, you'll typically find more information about the item 
+			   you're about to install, such as the publisher, 
+			   a brief description of the resource, and links to more information. 
+			   Make sure to review this information. 
+			   Select Create to begin the process to create a WordPress app. The WordPress/Create pane appears.
+	
+			Note : Please verify that you have selected the correct (default) WordPress site above in step 4.
+					It should match the screenshot below.
+	
+			6) Several options appear to configure your deployment. Enter the following values for each setting.
+				
+				
+				Setting								Value
+
+				i) App name						Choose a unique value for the app name. 
+												It will form part of a fully qualified domain name (FQDN).
+												
+				ii) Subscription				Make sure Concierge Subscription is selected.
+
+				iii) Resource Group				Select the Use existing option, and then select the 
+												[sandbox resource group name] resource group from the dropdown.
+
+				iv) Database Provider			From the dropdown, select MySQL in App.
+
+				v) App Service plan/Location	You'll change the App Service plan in the next step.
+
+				vi) Application Insights		Leave at the default configuration.
+
+			## NOTE :
+			If you still see a section called Database, make sure you selected the correct
+			Database Provider described in the preceding configuration.
+
+			7) Now, let's configure the App Service plan to use a specific pricing tier. 
+			   The App Service plan specifies the compute resources and location for the web app. 
+			   Select App Service plan/Location. The App Service plan pane appears.
+
+			8) Select Create new.
+				The New App Service Plan pane appears.
+
+
+			9) Enter the following values for each setting.
+					Setting							Value
+					
+				i) App Service plan					Choose a unique name for the new app service plan.
+
+				ii) Location						Select Central US to make sure we choose a region that allows
+													the service plan you'll choose. 
+													Normally, you'll select the region that's closest to your
+													customers while offering the services you need.
+
+				iii) Pricing tier					Select this option to see the performance and feature options of 
+													the various types of app service plans. 
+													The Spec Picker pane appears.
+
+			10) The Spec Picker enables us to select a new pricing tier for our application. 
+				The pane opens to the Production tab, with the S1 pricing tier selected. 
+				Select a new pricing tier from the Dev / Test tab for our website.
+												
+			11) Select the Dev / Test tab, then select the F1 pricing tier, and then select Apply.
+									
+			12) Back on the New App Service Plan pane, select OK to create the new plan.
+
+			13) Finally, select Create to start the deployment of your new site.
+				NOTE : If you encounter an issue when you create the resources, verify you've selected the
+				F1 pricing tier in the new App Service plan. 
+				Using the F1 pricing tier is a requirement of the sandbox system when you create this WordPress site
+
+		###Verify your website is running
+			#The deployment of the new website can take a few minutes to complete. 
+			 You're welcome to explore the portal further on your own.
+
+            We can track the progress of the deployment at any time.
+			1) Select the Notifications bell icon at the top of the portal. If your browser window width is smaller,
+			   it might be shown when you select the ellipsis (...) icon in the upper-right corner.
+			   
+			2) Select Deployment in progress to see the details about all the resources that are created.
+				
+				Notice how resources are listed as they're created and the status changes to a green check
+				mark as each component in the deployment completes.
+			
+			3) After the deployment status message changes to Your deployment is complete, 
+			   you'll notice the status in the Notifications dialog box changes to Deployment succeeded. 
+			   Select Go to resource to go to the App Service overview.
+	
+	
+			4) Find the URL in the Overview section.
+
+			5) Copy the URL information by selecting the Copy to clipboard icon at the end of URL.
+
+			6) Open a new tab in your browser, paste this URL, and press Enter to browse to your new WordPress site.
+			   You can now configure your WordPress site, and add content.
+	
+	
+	
+	
+#####################################################################################################################
+...................................................................................................................
+Azure Fundamentals part2: Describe core Azure services		 15-20%	
+part2 : a) Explore Azure compute services
+			
+        Azure Virtual Machines       : Infrastructure as a service (IaaS)
+        Azure App Service            : platform as a service (PaaS)
+        Azure Container Instances    : platform as a service (PaaS)
+        Azure Kubernetes Service     : 
+        Azure Functions or ( serverless computing )
+        Azure Virtual Desktop
+
+	1) Azure Virtual Machines	: (IaaS)							
+		Virtual Machines provides Infrastructure as a service (IaaS)
+		Virtual machine scale sets
+		Containers  =    i) Containers are lightweight, virtualized application environments.
+						ii) They're designed to be quickly created, scaled out, and stopped dynamically. 
+						iii) You can run multiple instances of a containerized application on a single host machine.
+			 
+	Q) Decide when to use Azure Virtual Machines ? 
+	==>  VMs are an ideal choice when you need:
+             i) Total control over the operating system (OS).
+            ii) The ability to run custom software.
+           iii) To use custom hosting configurations.
+			 
+	    You can create and provision a VM in minutes when you select a preconfigured VM image. 
+		Selecting an image is one of the most important decisions you'll make when you create a VM. 
+		An image is a template used to create a VM. 
+		These templates already include an OS and often other software, like development tools or web hosting environments.
+		
+	Q) Examples of when to use VMs ?
+	i) During testing and development : 
+	   VMs provide a quick and easy way to create different OS and application configurations. 
+	   Test and development personnel can then easily delete the VMs when they no longer need them.
+	   
+	ii) When running applications in the cloud:
+    	The ability to run certain applications in the public cloud as opposed to creating a traditional infrastructure
+		to run them can provide substantial economic benefits. 
+		For example, an application might need to handle fluctuations in demand. 
+		Shutting down VMs when you don't need them or quickly starting them up to meet a sudden increase in 
+		demand means you pay only for the resources you use.
+		
+    iii) When extending your datacenter to the cloud :
+    	An organization can extend the capabilities of its own on-premises network by creating a virtual network in Azure
+		and adding VMs to that virtual network. 
+		Applications like SharePoint can then run on an Azure VM instead of running locally. 
+		This arrangement makes it easier or less expensive to deploy than in an on-premises environment.
+		
+    iv) During disaster recovery: 
+    	As with running certain types of applications in the cloud and extending an on-premises network to the cloud, 
+		you can get significant cost savings by using an IaaS-based approach to disaster recovery. 
+		If a primary datacenter fails, you can create VMs running on Azure to run your critical applications and
+		then shut them down when the primary datacenter becomes operational again.	
+
+	#Move to the cloud with VMs :  move from a physical server to the cloud (also known as lift and shift)
+	#Scale VMs in Azure : 
+		i) Virtual machine scale sets
+		ii) Azure Batch
+
+	Q) What are virtual machine scale sets?
+	==> i) let you create and manage a group of identical, load-balanced VMs.
+		ii) Scale sets allow you to centrally manage, configure, and update a large number of VMs
+     		in minutes to provide highly available applications.
+		
+	Q) What is Azure Batch?
+	==> Azure Batch enables large-scale parallel and high-performance computing (HPC) batch jobs with
+     	the ability to scale to tens, hundreds, or thousands of VMs.
+		
+		* Starts a pool of compute VMs for you.
+        * Installs applications and staging data.
+        * Runs jobs with as many tasks as you have.
+        * Identifies failures.
+        * Requeues work.
+        * Scales down the pool as work completes.
+		
+		There might be situations in which you need raw computing power or supercomputer-level compute power. 
+		Azure provides these capabilities.
+		
+		
+		
+		
+		
+		
+	2) Azure App Service : (PaaS)
+			=  i)you can quickly build, deploy, and scale enterprise-grade web, mobile, and API apps running on any platform. 
+			   ii) You can meet rigorous performance, scalability, security, and compliance requirements while using 
+			       a fully managed platform to perform infrastructure maintenance.
+			   iii) App Service is a platform as a service (PaaS) offering.
+
+		Q) Decide when to use Azure App Service ?
+		# Azure App Service costs : 
+		# Types of app services : 
+			Web apps
+			API apps (API : Application Program Interface )
+			WebJobs
+			Mobile apps 
+			
+		i) Web apps : 
+			App Service includes full support for hosting web apps by using ASP.NET, ASP.NET Core, Java, Ruby, Node.js,
+			PHP, or Python. You can choose either Windows or Linux as the host operating system.
+		
+		ii) API apps : 
+			Much like hosting a website, you can build REST-based web APIs by using your choice of language and framework. 
+			You get full Swagger support and the ability to package and publish your API in Azure Marketplace. 
+			The produced apps can be consumed from any HTTP- or HTTPS-based client.
+		
+		iii) WebJobs :
+			You can use the WebJobs feature to run a program (.exe, Java, PHP, Python, or Node.js) or 
+			script (.cmd, .bat, PowerShell, or Bash) in the same context as a web app, API app, or mobile app.
+			They can be scheduled or run by a trigger. 
+			WebJobs are often used to run background tasks as part of your application logic.
+		
+		iv) Mobile apps :
+				* Store mobile app data in a cloud-based SQL database.
+				* Authenticate customers against common social providers, such as MSA, Google, Twitter, and Facebook.
+				* Send push notifications.
+				* Execute custom back-end logic in C# or Node.js.
+			On the mobile app side, there's SDK support for native iOS and Android, Xamarin, and React native apps.
+
+	3 & 4 ) Decide when to use Azure Container Instances or Azure Kubernetes Service
+	
+		Q) What are containers?
+		==> * Containers are a virtualization environment. 
+		    * Much like running multiple virtual machines on a single physical host, 
+			  you can run multiple containers on a single physical or virtual host. 
+			* Unlike virtual machines, you don't manage the operating system for a container. 
+			* Virtual machines appear to be an instance of an operating system that you can connect to and manage,
+			  but containers are lightweight and designed to be created, scaled out, and stopped dynamically. 
+			* While it's possible to create and deploy virtual machines as application demand increases, 
+			  containers are designed to allow you to respond to changes on demand. 
+			* With containers, you can quickly restart in case of a crash or hardware interruption.
+	#One of the most popular container engines is Docker, which is supported by Azure.
+
+						Vertial Machine      Vs     	 containers
+			i) VM virtualized hardware              i)  containers virtualized OS.
+			ii) Complete control 					ii) Portability , performance
+		
+		#Manage containers :
+			* Containers are managed through a container orchestrator, which can start, stop, and scale out 
+			  application instances as needed. 
+			* There are two ways to manage both :
+			  Docker and 
+			  Microsoft-based containers in Azure:
+			* Azure Container Instances and Azure Kubernetes Service (AKS) 
+			
+			
+		## Azure Container Instances : platform as a service (PaaS)
+				offers the fastest and simplest way to run a container in Azure without having to manage 
+				any virtual machines or adopt any additional services. 
+				It's a platform as a service (PaaS) offering that allows you to upload your containers,
+				which it runs for you.
+		
+		## Azure Kubernetes Service : 
+			The task of automating, managing, and interacting with a large number of containers is known as orchestration.
+			Azure Kubernetes Service is a complete orchestration service 
+			for containers with distributed architectures and large volumes of containers.
+
+		Q) What is Kubernetes? 
+		
+		#Use containers in your solutions
+		==> Containers are often used to create solutions by using a microservice architecture. 
+		    This architecture is where you break solutions into smaller, independent pieces. 
+			For example, you might split a website into a container hosting your front end, 
+			another hosting your back end, and a third for storage. 
+			This split allows you to separate portions of your app into logical sections that can be 
+			maintained, scaled, or updated independently.
+		
+		#Imagine your website back-end has reached capacity but the front end and storage aren't being stressed. You could:
+
+            i)  Scale the back end separately to improve performance.
+            ii) Decide to use a different storage service.
+           iii) Replace the storage container without affecting the rest of the application.
+		
+		Q) What is a microservice?
+		==>  separate service having different database -- connected through API 
+		
+	5)  Decide when to use Azure Functions or ( serverless computing ) ? 
+
+	==> Serverless computing is the abstraction of servers, infrastructure, and operating systems. 
+		With serverless computing, Azure takes care of managing the server infrastructure and the allocation and 
+		deallocation of resources based on demand. 
+		Infrastructure isn't your responsibility. 
+		Scaling and performance are handled automatically. 
+		You're billed only for the exact resources you use. 
+		There's no need to even reserve capacity.
+
+	## Serverless computing includes the abstraction of servers, an event-driven scale, and micro-billing:
+
+	• Abstraction of servers: 
+		Serverless computing abstracts the servers you run on. You never explicitly reserve server instances.
+		The platform manages that for you. Each function execution can run on a different compute instance.
+		This execution context is transparent to the code. 
+		With serverless architecture, you deploy your code, which then runs with high availability.
+
+	• Event-driven scale: 
+		Serverless computing is an excellent fit for workloads that respond to incoming events. 
+		Events include triggers by:
+            * Timers, for example, if a function needs to run every day at 10:00 AM UTC.
+            * HTTP, for example, API and webhook scenarios.
+            * Queues, for example, with order processing.
+            * And much more.
+	
+	#Instead of writing an entire application, the developer authors a function, which contains both code and metadata 
+	 about its triggers and bindings. The platform automatically schedules the function to run and scales the number of
+	 compute instances based on the rate of incoming events. 
+	 riggers define how a function is invoked. Bindings provide a declarative way to connect to services from within the code.
+
+	• Micro-billing: 
+		Traditional computing bills for a block of time like paying a monthly or annual rate for website hosting. 
+		This method of billing is convenient but isn't always cost effective. 
+		Even if a customer's website gets only one hit a day, they still pay for a full day's worth of availability. 
+		With serverless computing, they pay only for the time their code runs. If no active function executions occur,
+		they're not charged. For example, if the code runs once a day for two minutes, 
+		they're charged for one execution and two minutes of computing time.
+
+	# Azure has two implementations of serverless compute:
+
+		• Azure Functions: Functions can execute code in almost any modern language.
+		• Azure Logic Apps: Logic apps are designed in a web-based designer and can execute logic 
+							triggered by Azure services without writing any code.
+		
+		
+		
+		1) Azure Functions : 
+			i) When you're concerned only about the code running your service, and not the underlying platform or 
+			   infrastructure, using Azure Functions is ideal. Functions are commonly used when you need to perform 
+			   work in response to an event (often via a REST request), timer, or message from another Azure service,
+			   and when that work can be completed quickly, within seconds or less.
+
+			ii) Functions scale automatically based on demand, so they're a solid choice when demand is variable.
+				For example, you might receive messages from an IoT solution that's used to monitor a fleet of delivery 
+				vehicles. You'll likely have more data arriving during business hours.
+
+			iii) Using a virtual machine-based approach, you'd incur costs even when the virtual machine is idle.
+				 With functions, Azure runs your code when it's triggered and automatically deallocates resources 
+				 when the function is finished. In this model, you're only charged for the CPU time used while your 
+				 function runs.
+
+			iv) Functions can be either stateless or stateful. When they're stateless (the default), 
+			    they behave as if they're restarted every time they respond to an event. When they're stateful 
+				(called Durable Functions), a context is passed through the function to track prior activity.
+
+			v) Functions are a key component of serverless computing. 
+			   They're also a general compute platform for running any type of code. 
+			   If the needs of the developer's app change, you can deploy the project in an environment 
+			   that isn't serverless. This flexibility allows you to manage scaling, run on virtual networks, 
+			   and even completely isolate the functions.
+
+		2) Azure Logic Apps
+			i) Logic apps are similar to functions. Both enable you to trigger logic based on an event.
+			   Where functions execute code, logic apps execute workflows that are designed to automate business
+			   scenarios and are built from predefined logic blocks.
+
+            ii) Every Azure logic app workflow starts with a trigger, which fires when a specific event happens or
+				when newly available data meets specific criteria. Many triggers include basic scheduling capabilities,
+				so developers can specify how regularly their workloads will run. 
+				Each time the trigger fires, the Logic Apps engine creates a logic app instance that runs 
+				the actions in the workflow. These actions can also include data conversions and flow controls,
+				such as conditional statements, switch statements, loops, and branching.
+
+			iii) You create logic app workflows by using a visual designer on the Azure portal or in Visual Studio.
+				 The workflows are persisted as a JSON file with a known workflow schema.
+
+			iv) Azure provides more than 200 different connectors and processing blocks to interact with different services.
+				These resources include the most popular enterprise apps. You can also build custom connectors and workflow
+				steps if the service you need to interact with isn't covered. You then use the visual designer to link 
+				connectors and blocks together. You pass data through the workflow to do custom processing, 
+				often all without writing any code.
+
+			## As an example, let's say a ticket arrives in Zendesk. You could:
+
+                * Detect the intent of the message with cognitive services.
+                * Create an item in SharePoint to track the issue.
+                * Add the customer to your Dynamics 365 CRM system if they aren't already in your database.
+                * Send a follow-up email to acknowledge their request.
+			
+			#All of those actions could be designed in a visual designer, which makes it easy to see the logic flow. 
+			For this reason, it's ideal for a business analyst role.
+
+		#Functions vs. Logic Apps
+			* Functions and Logic Apps can both create complex orchestrations. 
+			  An orchestration is a collection of functions or steps that are executed to accomplish a complex task.
+					• With Functions, you write code to complete each step.
+					• With Logic Apps, you use a GUI to define the actions and how they relate to one another.
+			* You can mix and match services when you build an orchestration, calling functions from logic apps and
+			  calling logic apps from functions. Here are some common differences between the two.
+
+							
+								Functions								Logic Apps
+
+	1) 	State				Normally stateless, but Durable 			Stateful.
+							Functions provide state.	
+		
+	2) 	Development			Code-first (imperative).					Designer-first (declarative).
+
+	3)  Connectivity		About a dozen built-in binding types. 		Large collection of connectors.Enterprise Integration
+							Write code for custom bindings.				Pack for B2B scenarios. Build custom connectors.
+
+	4) 	Actions				Each activity is an Azure function. 		Large collection of ready-made actions.
+							Write code for activity functions.
+	
+	5)  Monitoring			Azure Application Insights.					Azure portal, Log Analytics.
+
+	6)  Management			REST API, Visual Studio.					Azure portal, REST API, PowerShell, Visual Studio.
+
+	7) Execution context	Can run locally or in the cloud.			Runs only in the cloud.
+
+
+	6) Decide when to use Azure Virtual Desktop :
+		Q) What is Azure Virtual Desktop?
+	--> 	Azure Virtual Desktop is a desktop and application virtualization service that runs on the cloud. 
+			It enables your users to use a cloud-hosted version of Windows from any location. 
+			Azure Virtual Desktop works across devices like Windows, Mac, iOS, Android, and Linux.
+			It works with apps that you can use to access remote desktops and apps. 
+			You can also use most modern browsers to access Azure Virtual Desktop-hosted experiences.
+
+	Q) Why should you use Azure Virtual Desktop?
+	==>  i) Provide the best user experience
+		ii) Enhance security
+
+
+	Q) What are some key features of Azure Virtual Desktop?
+	==> Simplified management
+		Performance management
+		Multi-session Windows 10 deployment
+	
+	Q) How can you reduce costs with Azure Virtual Desktop?
+	==> Bring your own licenses
+		Save on compute costs
+
+#####################################################################################################################		
+		
+part2 : b) Explore Azure networking  services
+
+	Unit 1 :Introduction
+		
+		Suppose your company, Tailwind Traders, has migrated some applications to the cloud and is architecting new ones.
+		The servers that host Tailwind Traders' customer and product data are based in Silicon Valley. 
+		Your company also has several branch offices located in different geographic regions. 
+		As part of your migration strategy, your company needs to determine the correct approach to configure its 
+		network infrastructure.
+
+		* To help save costs, you convince your team to move your website and several of your other networked 
+		resources to the cloud. 
+		
+		With that in mind, you'll need to provide secure access to private company data for each of its branch locations.
+		You want to know how Azure can help you manage your network more effectively. 
+		
+		As it turns out, managing networks on Azure isn't entirely different from managing on-premises networks.
+
+		In this module, you'll learn about the different Azure networking options and the scenarios in which each is appropriate.
+		
+		## Learning objectives
+			After completing this module, you'll be able to:
+
+			•	Describe the core networking resources that are available in Azure.
+			•	Describe the benefits and usage of Azure Virtual Network, Azure VPN Gateway, and Azure ExpressRoute.
+		## Prerequisites
+			•	You should be familiar with basic network concepts and terminology.
+			•	Familiarity with cloud computing is helpful but isn't necessary
+
+	Unit 2: ##Azure Virtual Network fundamentals
+		
+		Tailwind Traders has an on-premises datacenter that you plan to keep, but you want to use Azure 
+		to offload peak traffic by using virtual machines (VMs) hosted in Azure. 
+		You want to keep your existing IP addressing scheme and network appliances while ensuring that any data transfer is secure.
+
+		Using Azure Virtual Network for your virtual networking can help you reach your goals.
+
+		Q) What is Azure virtual networking?
+		==>	Azure virtual networks enable Azure resources, such as VMs, web apps, and databases, to communicate with each other,
+			with users on the internet, and with your on-premises client computers. 
+			You can think of an Azure network as a set of resources that links other Azure resources.
+			
+			#Azure virtual networks provide the following key networking capabilities:
+
+				•	Isolation and segmentation
+				•	Internet communications
+				•	Communicate between Azure resources
+				•	Communicate with on-premises resources
+				•	Route network traffic
+				•	Filter network traffic
+				•	Connect virtual networks
+			
+		#Network configurations for virtual machines
+
+		#Isolation and segmentation
+			Virtual Network allows you to create multiple isolated virtual networks. 
+			When you set up a virtual network, you define a private IP address space by using either public or 
+			private IP address ranges. 
+			You can divide that IP address space into subnets and allocate part of the defined address space to each named subnet.
+
+			*	For name resolution, you can use the name resolution service that's built in to Azure. 
+				You also can configure the virtual network to use either an internal or an external DNS server.
+
+		#Internet communications
+			A VM in Azure can connect to the internet by default. You can enable incoming connections from the internet
+			by defining a public IP address or a public load balancer. For VM management, you can connect via the Azure CLI,
+			Remote Desktop Protocol, or Secure Shell.
+
+		#Communicate between Azure resources
+			You'll want to enable Azure resources to communicate securely with each other. You can do that in one of two ways:
+
+				•	Virtual networks Virtual networks can connect not only VMs but other Azure resources, 
+						such as the App Service Environment for Power Apps, Azure Kubernetes Service, and Azure virtual
+						machine scale sets.
+				•	Service endpoints You can use service endpoints to connect to other Azure resource
+					types, such as Azure SQL databases and storage accounts. This approach enables you to link 
+					multiple Azure resources to virtual networks to improve security and provide optimal routing between resources.
+					
+					
+		#Communicate with on-premises resources	:
+			Azure virtual networks enable you to link resources together in your on-premises environment 
+			and within your Azure subscription. In effect, you can create a network that spans both your 
+			local and cloud environments. There are three mechanisms for you to achieve this connectivity:
+
+			•	Point-to-site virtual private networks The typical approach to a virtual private network (VPN) connection is
+				from a computer outside your organization, back into your corporate network. In this case,
+				the client computer initiates an encrypted VPN connection to connect that computer to the Azure virtual network.
+				
+			•	Site-to-site virtual private networks A site-to-site VPN links your on-premises VPN device or gateway
+				to the Azure VPN gateway in a virtual network. In effect, the devices in Azure can appear as
+				being on the local network. The connection is encrypted and works over the internet.
+				
+			•	Azure ExpressRoute For environments where you need greater bandwidth and even higher levels of security,
+				Azure ExpressRoute is the best approach. ExpressRoute provides dedicated private connectivity to Azure 
+				that doesn't travel over the internet. (You'll learn more about ExpressRoute in a separate unit later in this module.)
+			
+		#Route network traffic
+			By default, Azure routes traffic between subnets on any connected virtual networks, on-premises networks,
+			and the internet. You also can control routing and override those settings, as follows:
+
+			•	Route tables A route table allows you to define rules about how traffic should be directed. 
+				You can create custom route tables that control how packets are routed between subnets.
+				
+			•	Border Gateway Protocol Border Gateway Protocol (BGP) works with Azure VPN gateways or 
+				ExpressRoute to propagate on-premises BGP routes to Azure virtual networks.	
+				
+		#Filter network traffic
+			Azure virtual networks enable you to filter traffic between subnets by using the following approaches:
+
+			•	Network security groups A network security group is an Azure resource that can contain multiple 
+				inbound and outbound security rules. You can define these rules to allow or block traffic, based 
+				on factors such as source and destination IP address, port, and protocol.
+				
+			•	Network virtual appliances A network virtual appliance is a specialized VM that can be compared to
+				a hardened network appliance. A network virtual appliance carries out a particular network function,
+				such as running a firewall or performing wide area network (WAN) optimization.
+				
+				
+		#Connect virtual networks
+			You can link virtual networks together by using virtual network peering. 
+			Peering enables resources in each virtual network to communicate with each other. 
+			These virtual networks can be in separate regions, 
+			which allows you to create a global interconnected network through Azure.
+
+			UDR is user-defined Routing. UDR is a significant update to Azure’s Virtual Networks as this allows
+			network admins to control the routing tables between subnets within a VNet, as well as between VNets,
+			thereby allowing for greater control over network traffic flow.
+			
+			
+	unit 3: Azure Virtual Network settings
+			
+			You can create and configure Azure Virtual Network instances from the Azure portal, Azure PowerShell 
+			on your local computer, or Azure Cloud Shell.
+		
+		#Create a virtual network:
+		You'll configure the following settings for a basic virtual network:
+		
+		•	Network name :	The network name must be unique in your subscription, but it doesn't need to be globally unique. 
+			Make the name a descriptive one that's easy to remember and identified from other virtual networks.
+
+		•	Address space :	When you set up a virtual network, you define the internal address space in Classless 
+			Interdomain Routing (CIDR) format. This address space needs to be unique within your subscription 
+			and any other networks that you connect to. Let's assume you choose an address space of 10.0.0.0/24 for your
+			first virtual network. 
+			The addresses defined in this address space range from 10.0.0.1 to 10.0.0.254. You then create a 
+			second virtual network and choose an address space of 10.0.0.0/8. The addresses in this address space 
+			range from 10.0.0.1 to 10.255.255.254. Some of the addresses overlap and can't be used for the two virtual networks.
+			But you can use 10.0.0.0/16, with addresses that range from 10.0.0.1 to 10.0.255.254, and 10.1.0.0/16, 
+			with addresses that range from 10.1.0.1 to 10.1.255.254. You can assign these address spaces to your virtual 
+			networks because there's no address overlap.
+			
+			#NOTE : 
+			You can add address spaces after you create the virtual network.
+		
+		•	Subscription This option only applies if you have multiple subscriptions to choose from.
+	
+		•	Resource group Like any other Azure resource, a virtual network needs to exist in a resource group. 
+			You can either select an existing resource group or create a new one.
+
+		•	Location Select the location where you want the virtual network to exist.
+
+		•	Subnet Within each virtual network address range, you can create one or more subnets that partition the virtual
+			network's address space. Routing between subnets will then depend on the default traffic routes. 
+			You also can define custom routes. Alternatively, you can define one subnet that encompasses all
+			the virtual networks' address ranges.
+		
+			#NOTE :
+			Subnet names must begin with a letter or number and end with a letter, number, or underscore. 
+			They may contain only letters, numbers, underscores, periods, or hyphens.
+		
+		•	DDoS protection You can select either Basic or Standard DDoS protection. 
+			Standard DDoS protection is a premium service. For more information on Standard DDoS protection, 
+			see Azure DDoS protection Standard overview.
+
+		•	Service endpoints Here, you enable service endpoints. 
+			Then you select from the list which Azure service endpoints you want to enable.
+			Options include Azure Cosmos DB, Azure Service Bus, Azure Key Vault, and so on.
+
+		*	After you've configured these settings, select Create.
+		
+		#Define additional settings
+		After you create a virtual network, you can then define further settings. 
+		These include:
+
+			•	Network security group Network security groups have security rules that enable you to 
+				filter the type of network traffic that can flow in and out of virtual network subnets 
+				and network interfaces. You create the network security group separately. 
+				Then you associate it with the virtual network.
+				
+			•	Route table Azure automatically creates a route table for each subnet within an Azure virtual network
+				and adds system default routes to the table. You can add custom route tables to modify traffic
+				between virtual networks.
+				
+			You can also amend the service endpoints.
+		
+		## Configure virtual networks
+
+		After you've created a virtual network, you can change any further settings on the 
+		Virtual network pane in the Azure portal. Alternatively, you can use PowerShell commands or
+		commands in Cloud Shell to make changes.
+		
+		* You can then review and change settings in further subpanes. These settings include:
+
+		•	Address spaces		: You can add additional address spaces to the initial definition.
+		•	Connected devices	: Use the virtual network to connect machines.
+		•	Subnets				: You can add additional subnets.
+		•	Peerings			: Link virtual networks in peering arrangements.
+		
+		You can also monitor and troubleshoot virtual networks. Or, you can create an automation script
+		to generate the current virtual network.
+
+		Virtual networks are powerful and highly configurable mechanisms for connecting entities in Azure. 
+		You can connect Azure resources to one another or to resources you have on-premises.
+		You can isolate, filter, and route your network traffic. Azure allows you to increase security where you feel you need it.
+		
+		
+	Unit 4 :Azure VPN Gateway fundamentals
+		# VPNs use an encrypted tunnel within another network. They're typically deployed to connect two or more trusted private 
+		networks to one another over an untrusted network (typically the public internet). Traffic is encrypted while traveling
+		over the untrusted network to prevent eavesdropping or other attacks.
+
+		#For our Tailwind Traders scenario, VPNs can enable branch offices to share sensitive information between locations.
+		For example, let's say that your offices on the East Coast region of North America need to access your company's 
+		private customer data, which is stored on servers that are physically located in a West Coast region. 
+		A VPN that connects your East Coast offices to your West Coast servers allows your company to securely 
+		access your private customer data.
+	
+		##VPN gateways
+		
+		A VPN gateway is a type of virtual network gateway. Azure VPN Gateway instances are deployed in Azure 
+		Virtual Network instances and enable the following connectivity:
+
+			•	Connect on-premises datacenters to virtual networks through a site-to-site connection.
+			•	Connect individual devices to virtual networks through a point-to-site connection.
+			•	Connect virtual networks to other virtual networks through a network-to-network connection.
+		
+		All transferred data is encrypted in a private tunnel as it crosses the internet.
+		You can deploy only one VPN gateway in each virtual network, but you can use one gateway to connect to
+		multiple locations, which includes other virtual networks or on-premises datacenters
+		
+		
+		When you deploy a VPN gateway, you specify the VPN type: either policy-based or route-based. 
+		The main difference between these two types of VPNs is how traffic to be encrypted is specified. 
+		In Azure, both types of VPN gateways use a pre-shared key as the only method of authentication. 
+		Both types also rely on Internet Key Exchange (IKE) in either version 1 or version 2 and Internet Protocol Security (IPSec).
+		IKE is used to set up a security association (an agreement of the encryption) between two endpoints. 
+		This association is then passed to the IPSec suite, which encrypts and decrypts data packets encapsulated in the VPN tunnel.
+		
+		
+		##Policy-based VPNs
+			Policy-based VPN gateways specify statically the IP address of packets that should be encrypted through each tunnel. This type of device evaluates every data packet against those sets of IP addresses to choose the tunnel where that packet is going to be sent through.
+
+			Key features of policy-based VPN gateways in Azure include:
+
+		•	Support for IKEv1 only.
+		•	Use of static routing, where combinations of address prefixes from both networks control how traffic is 
+			encrypted and decrypted through the VPN tunnel. The source and destination of the tunneled networks 
+			are declared in the policy and don't need to be declared in routing tables.
+		•	Policy-based VPNs must be used in specific scenarios that require them, such as for compatibility with 
+			legacy on-premises VPN devices.
+
+			
+		##	Route-based VPNs
+			If defining which IP addresses are behind each tunnel is too cumbersome, route-based gateways can be used.
+			With route-based gateways, IPSec tunnels are modeled as a network interface or virtual tunnel interface. 
+			IP routing (either static routes or dynamic routing protocols) decides which one of these tunnel 
+			interfaces to use when sending each packet. Route-based VPNs are the preferred connection method 
+			for on-premises devices. They're more resilient to topology changes such as the creation of new subnets.
+
+		Use a route-based VPN gateway if you need any of the following types of connectivity:
+
+			•	Connections between virtual networks
+			•	Point-to-site connections
+			•	Multisite connections
+			•	Coexistence with an Azure ExpressRoute gateway
+		Key features of route-based VPN gateways in Azure include:
+
+			•	Supports IKEv2
+			•	Uses any-to-any (wildcard) traffic selectors
+			•	Can use dynamic routing protocols, where routing/forwarding tables direct traffic to
+				different IPSec tunnels In this case, the source and destination networks aren't statically 
+				defined as they are in policy-based VPNs or even in route-based VPNs with static routing. 
+				Instead, data packets are encrypted based on network routing tables that are created dynamically
+				using routing protocols such as Border Gateway Protocol (BGP).
+				
+		##VPN gateway sizes
+
+		
+		
+#####################################################################################################################
+part2 : c) Explore Azure Storage services
+
+
+#####################################################################################################################
+part2 : d) Explore Azure Databases and analytical services
+ 
+ 
+ 
+ 
+ 
+ 
+#####################################################################################################################
+...................................................................................................................
+Azure Fundamentals part3: Describe core solutions and management tools on Azure
+
+			a) Choose the best Azure IoT service for your application
+			b) Choose the best AI service for your needs
+			c) Choose the best Azure serverless technology for your business scenario
+			d) Choose the best tools to help organizations build better solutions
+			e) Choose the best tools for managing and configuring your Azure environment
+			f) Choose the best monitoring service for visibility, insight, and outage mitigation
+
+#####################################################################################################################
+...................................................................................................................
+		
+Azure Fundamentals part4: Describe general security and network security features
+ 
+			a) Protect against security threats on Azure
+			b) Secure network connectivity on Azure
+
+#####################################################################################################################
+...................................................................................................................
+Azure Fundamentals part5: Describe identity, governance, privacy, and compliance features
+
+
+			a) Secure access to your applications by using Azure identity services
+			b) Build a cloud governance strategy on Azure
+			c) Examine privacy, compliance, and data protection standards on Azure
+
+
+ 
+#####################################################################################################################
+...................................................................................................................
+Azure Fundamentals part6: Describe Azure cost management and service level agreements 
+	
+			a) Plan and manage your Azure costs
+			b) Choose the right Azure services by examining SLAs and service lifecycle
+
+	
+	
+
+	
+	
+
+
+
+
+
+	
+	
+#####################################################################################################################
+...................................................................................................................
+
+###################
+Azure Virtual Machines       	: 	Infrastructure as a service (IaaS)
+Azure Storage accounts 			: 	IaaS (Infrastructure as a Service)	
+
+Azure App Service            	: 	platform as a service (PaaS)
+Azure Container Instances    	: 	platform as a service (PaaS)
+
+#Database :
+Azure SQL databases			 	: 	platform as a service (PaaS)
+Azure Cosmos DB 			 	: 	platform as a service (PaaS)
+
+Azure backup 				 	:	platform as a service (PaaS)
+
+Azure Kubernetes Service     	: 
+Azure Functions or 
+( serverless computing )
+Azure Virtual Desktop
+ 
+	
+Compute - Virtual machines, virtual machine scale sets, app services
+Networking - virtual networks, load balancer, VPN gateway, application gateway, content delivery network
+Storage - Blog, disk, file, archive storage and Azure Files
+Databases - Cosmos DB, SQL Database, database migration service, SQL Data Warehouse
+IoT - IoT Central, IoT Hub
+Big Data - HDInsight, Data Lake Analytics
+AI - Azure Machine Learning Service, Azure Machine Learning Studio
+Serverless - Azure Functions, Logic Apps
+Identity services - identity concepts, Azure Active Directory, Multi Factor Authentication concepts
+Security products - including both the Azure Security Center, Information Protection, Advanced Threat Protection and security features in the product groups above, like Network Security Groups
+Governance - including Policy and Role Based Access Control, but also compliance and privacy concepts.
+Monitoring - Azure Monitor and Service Health
+Azure tools - like Azure Resource Manager, Azure CLI, Cloud Shell and PowerShell
+ 
+ 
+#########################################################
+MCQ practice before exam :
+                   revision 1 							revision 1
+part 1             upto 15 que (27 sept end ) 
+part 2 			   almost complete 
+part 3 
+part 4 
+part 5
+part 6  
+You tube 
+Lex 
+
+Exam date : 4 Oct (monday : 12 afternnon )
+
+
+
+
+
+##########################################################################################################
+##Knowledge check
+
+
+Azure Fundamentals part1: Describe core Azure concepts
+a) Introduction to Azure fundamentals               
+			
+	1. 	True or false: You need to purchase an Azure account before you can use any Azure resources.
+		=> 	False
+		That's correct. You can use a free Azure account or a Microsoft Learn sandbox to create resources.
+	
+	2.	What is meant by cloud computing?
+		• 	Delivery of computing services over the internet. 
+			Setting up your own datacenter.  
+			Using the internet
+	 	=>  That's correct. Cloud computing is the delivery of computing services over the internet, 
+			which is otherwise known as the cloud
+	
+	3. Which of the following is not a feature of Cloud computing?
+			Faster innovation   
+		•	A limited pool of services  
+			Speech recognition and other cognitive services	
+		=> 	That's correct. The cloud offers a nearly limitless pool of raw compute, storage, 
+		    and networking components to help you deliver innovative and novel user experiences quickly.
+	
+b) Discuss Azure fundamentals  concepts			 	
+			
+	1. 	Which of the following choices isn't a cloud computing category?
+		•	Networking-as-a-Service (NaaS)	
+			Platform-as-a-Service (PaaS)	
+			Infrastructure-as-a-Service (IaaS)
+			Software-as-a-Service (SaaS)
+		
+	2. Which of the following statements is true?
+		With Operating Expenses (OpEx), you are responsible for purchasing and maintaining your computing resources.
+	•	With Operating Expenses (OpEx), you are only responsible for the computing resources that you use.
+		With Capital Expenses (CapEx), you are only responsible for the computing resources that you use.
+	
+	3. Which of the following options isn't a type of cloud computing?		
+	•	Distributed cloud
+		Hybrid cloud
+		Private cloud
+		Public cloud
+	
+	4. Which of the following choices isn't a benefit of using cloud services?		
+		Scalability
+		Disaster recovery
+		High availability
+	•	Geographic isolation (That's correct. You can choose to create resources in a single region; 
+							however, one of the primary advantages to cloud computing is geographic distribution.)
+			
+c) Describe Azure architectural components		    
+			
+	1. Which of the following can be used to manage governance across multiple Azure subscriptions?
+		Azure initiatives
+	•	Management groups
+		Resource groups
+	=>	That's correct.	Management groups facilitate the hierarchical ordering of Azure resources into collections, 
+		at a level of scope above subscriptions. Distinct governance 
+	    conditions can be applied to each management group, 
+		along with Azure Policy and Azure role-based access controls, 
+		to manage Azure subscriptions effectively. 
+		The resources and subscriptions assigned to a management group automatically 
+		inherit the conditions applied to the management group	
+
+	2.	Which of the following is a logical unit of Azure services that links to an Azure account?
+	•	Azure subscription
+		Management group
+		Resource group
+		Public cloud
+	=>  That's correct. An Azure subscription is a logical unit of Azure services that links to an Azure account. 
+		An Azure subscription is an object that represents a container that you can put resources in. 
+		Subscriptions are tied to tenants, so one tenant can have many subscriptions, but not vice versa.
+	
+	3. Which of the following features does not apply to resource groups?	
+		Resources can be in only one resource group.
+		Role-based access control can be applied to the resource group.
+	•	Resource groups can be nested.
+	=> 	Resource groups can be nested.
+	
+	4. 	Which of the following statements is a valid statement about an Azure subscription?
+		Using Azure doesn't require a subscription.
+	•	An Azure subscription is a logical unit of Azure services.
+	=> 	That's correct. A subscription is a set of Azure services bundled together for tracking and billing purposes.
+		Resource access control occurs at the subscription level. 
+		Organizations use Azure subscriptions to manage and govern their Azure resources.
+		
+##########################################################################################################		
+Azure Fundamentals part2: Describe core Azure services
+a) Explore Azure compute services		
+	1. 	Which Azure compute resource can be deployed to manage a set of identical virtual machines?
+		•	Virtual machine scale sets
+			Virtual machine availability sets
+			Virtual machine availability zones
+	=>	That's correct. Virtual machine scale sets let you deploy and manage a set of identical virtual machines
+		
+	2.  Which of the following services should be used when the primary concern is to perform work in 
+		response to an event (often via a REST command) that needs a response in a few seconds?
+		•	Azure Functions
+			Azure App Service
+			Azure Container Instances
+	=>	That's correct. Azure Functions is used when you need to perform work in response to an event 
+		(often via a REST request), timer, or message from another Azure service, and
+		when that work can be completed quickly, within seconds or less.
+			 
+	3. 	Your company has a team of remote workers that need to use Windows-based software to
+    	develop your company's applications, but your team members are using various operating systems
+		like macOS, Linux, and Windows. Which Azure compute service would help resolve this scenario?		
+			Azure App Service
+		•	Azure Virtual Desktop
+			Azure Container Instances
+	=>	That's correct. Azure Virtual Desktop enables your team members to run Windows in the cloud,
+		with access to the required applications for your company's needs.
+
+		
+b) Explore Azure networking services				not  done
+c) Explore Azure Storage services					not  done
+d) Explore Azure database and analytics services	not  done
+
+##########################################################################################################
+Azure Fundamentals part3: Describe core solutions and management tools on Azure
+	a) Choose the best Azure IoT service for your application
+	b) Choose the best AI service for your needs
+	c) Choose the best Azure serverless technology for your business scenario
+	d) Choose the best tools to help organizations build better solutions
+	e) Choose the best tools for managing and configuring your Azure environment
+	f) Choose the best monitoring service for visibility, insight, and outage mitigation
+
+	
+Azure Fundamentals part4: Describe general security and network security features
+	a) Protect against security threats on Azure
+	b) Secure network connectivity on Azure
+
+Azure Fundamentals part5: Describe identity, governance, privacy, and compliance features
+	a) Secure access to your applications by using Azure identity services
+	b) Build a cloud governance strategy on Azure
+	c) Examine privacy, compliance, and data protection standards on Azure
+
+Azure Fundamentals part 6: Describe Azure cost management and service level agreements 
+	a) Plan and manage your Azure costs
+	b) Choose the right Azure services by examining SLAs and service lifecycle
+
+##########################################################################################################
+
